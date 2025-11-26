@@ -1,6 +1,6 @@
-# 📊 Final Project - Edit me!
+# 📊 Final Project - Fruit and Vegetable Prices
 
-By: Student Name
+By: Loc Nguyen
 
 ---
 
