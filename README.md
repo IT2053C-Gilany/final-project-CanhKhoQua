@@ -67,7 +67,8 @@ The notebook is organized into the following sections:
 3. Loading and File IO
 4. Exploratory Data Analysis (EDA)
 5. Conclusion
-6. Appendix: Resources and References  
+6. Appendix: Resources and References
+
 Each main section also contains relevant **sub-headings** to further organize the analysis and results.
 
 ## 📊 Key Research Questions
