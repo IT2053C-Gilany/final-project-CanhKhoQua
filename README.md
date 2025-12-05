@@ -1,47 +1,86 @@
 # 📊 Final Project - Fruit and Vegetable Prices
+**Course:** IT2053C – Data Analysis  
 
 By: Loc Nguyen
 
 ---
 
-This is a final project template for the IT2053C course. You can edit the `final-project.ipynb` file to complete the project.
+This project analyzes fruit and vegetable prices using Python and data visualization techniques. The goal is to explore pricing trends, compare fresh vs processed fruits, and apply data analysis skills learned throughout the course.
 
-The final project is a three part project:
+## 🚀 Project Overview
 
-- Initiation (part 1)
-- Notebook (part 2)
-- Presentation (part 3)
+This final project consists of **three main parts**:
 
-## 🚀 Quick Start
+1. **Initiation (Part 1)** – Project planning and dataset selection  
+2. **Notebook (Part 2)** – Full data analysis in Jupyter Notebook  
+3. **Presentation (Part 3)** – Final video presentation  
 
-### 1. Setup Environment
+The main analysis is completed in the file:
 
-In the previous assignment, you created a conda environment called `IT2053C`. If you don't have it, you can create it by running the following command:
+- `final-project.ipynb`
+
+## 📁 Dataset
+
+- **Source:** USDA Economic Research Service – Fruit and Vegetable Prices  
+- **Link:** https://www.ers.usda.gov/data-products/fruit-and-vegetable-prices/  
+- **License:** CC0 (Public Domain)
+
+This dataset includes prices for fruits and vegetables across different forms such as:
+- Fresh  
+- Frozen  
+- Canned  
+- Dried  
+- Juice  
+---
+## ⚙️ Environment Setup
+
+This project uses a **Conda environment** named `IT2053C`.
+
+### 1. Create the Environment (If Needed)
 
 ```bash
-# You must provide your 6+2 username
 python scripts/setup.py --username <your_6+2_username>
-
-# Example:
-python scripts/setup.py --username gilanyym
 ```
-
-Go back to the previous assignment to make sure you have set up the environment correctly.
-
+✅ Example:
+```bash
+python scripts/setup.py --username nguye2lc
+```
+### 2. Activate the Environment
 Now, you can activate the environment in the terminal by running the following command:
 
 ```bash
 # Activate your conda environment
 conda activate IT2053C
 ```
+### 3. Required Libraries
+In this project, we'll utilize these libraries for technical use
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- scipy
+- pathlib
+### 4. Notebook Structure
+The notebook is organized into the following sections:
+1. Title and Executive Summary
+2. Data Card
+3. Loading and File IO
+4. Exploratory Data Analysis (EDA)
+5. Conclusion
+6. Appendix: Resources and References  
+Each main section also contains relevant **sub-headings** to further organize the analysis and results.
 
-For the final submission, you will need to make sure your notebook is organized as follows:
+## 📊 Key Research Questions
+- How do prices vary among different fruits?
+- What is the average price of Fresh fruits?
+- Are fresh fruits more expensive than non-fresh forms?
+- How do prices vary among 4 different berries (Blackberries, Blueberries, Raspberries, and Strawberries) across their Fresh and Frozen forms?
+- What is the correlation between RetailPrice and CupEquivalentPrice?
+- What patterns exist in prices across different fruit forms?
+- What is the distribution of fruit forms in this dataset?
 
-- Project Title
-- Data set selection
-- Executive summary
-- Loading and file IO
-- Preparation and feature engineering
-- Analysis and Visualization
-- Conclusions
-- Appendix and References
+## ✅ Final Submission Includes
+✔ Jupyter Notebook (final-project.ipynb)  
+✔ GitHub Repository  
+✔ Presentation Video  
