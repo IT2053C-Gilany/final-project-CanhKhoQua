@@ -1,6 +1,5 @@
 # 📊 Final Project - Fruit and Vegetable Prices
-**Course:** IT2053C – Data Analysis  
-
+IT2053C – Data Tech Programming  
 By: Loc Nguyen
 
 ---
